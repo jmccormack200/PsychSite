@@ -1,6 +1,8 @@
 from app import app, db, models
-from flask import render_template
+from flask import Flask,render_template
 import random
+
+app = Flask(__name__)
 
 @app.route('/')
 @app.route('/index')
