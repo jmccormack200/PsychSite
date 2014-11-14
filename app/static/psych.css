@@ -1,0 +1,27 @@
+html{
+	background-image: url(pineapple.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+p#SS{
+   font-family: 'Pfennig'; 
+   font-weight: normal; 
+   font-style: normal; 
+   font-size: 72px;
+   text-align: left;
+}
+
+p#GUS{
+   font-family: 'YoungSerif'; 
+   font-weight: normal; 
+   font-style: normal; 
+   font-size: 72px;
+   text-align: center;
+}
+
+#episode{
+	font-family: 'YoungSerif';
+	font-size: 24px;
+	text-align: center;
+}

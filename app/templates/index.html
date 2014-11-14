@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> ...And This is My Partner</title>
+
+		<link rel="shortcut icon" href="{{ url_for('static', filename='shaq.jpg') }}">
+
+		<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/pfennig" rel="stylesheet" type="text/css"/>
+
+		<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/youngserif" rel="stylesheet" type="text/css"/>
+
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='psych.css') }}" />>
+	</head>
+	<body>
+		<script>
+			document.body.addEventListener('click', fn, true);
+			function fn(){
+				location.reload (true);
+			}
+		</script>
+		<p id="SS">
+			I'm Sean Spencer,<br /> 
+			&nbsp;&nbsp;&nbsp;&nbsp;and this is my partner...
+		</p>
+		<p id="GUS">			
+		{{gus.nickname}}		
+		</p>
+	</body>
+</html>
